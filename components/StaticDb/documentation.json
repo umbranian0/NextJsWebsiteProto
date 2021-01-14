@@ -1,0 +1,133 @@
+{
+    "Documentations":{
+        "0" :{
+        "Description" : "How to License BRAW Studio and access RAW Params",
+        "Link" : "https://www.autokroma.com/blog/How-to-License-BRAW-Studio"
+        },
+        "1" :{
+
+        "Description" : "Introduction to BRAW Studio for Premiere Pro and Media Encoder",
+        "Link" : "https://www.autokroma.com/blog/Introduction-to-BRAW-Studio"
+        },
+        "2" :{
+
+        "Description" : "BRAW Studio for After Effects is available now",
+        "Link" : "https://www.autokroma.com/blog/BRAW-Studio-For-After-Effects"
+        },
+        "3" :{
+
+        "Description" : "Blackmagic RAW Plugin and BRAW Studio - What's the difference ?",
+        "Link" : "https://www.autokroma.com/blog/BlackmagicRaw-Plugin-BRAW-Studio-Difference"
+        },
+        "4" :{
+
+        "Description" : "The BRAW Studio Presets",
+        "Link" : "https://www.autokroma.com/blog/BRAW-Studio-Presets"
+        }
+    },
+    "FAQ":{
+        "Questions" : {
+            "GeneralLicensing":{
+                "0" :{
+                    "Description" : "What are the requirements, specs and known issues of BRAW Studio ?",
+                    "Link" : "https://www.autokroma.com/BRAW_Studio/User_Guide/What_are_the_requirements_specs_and_known_issues_of_BRAW_Studio"
+                },
+                "1" :{
+                    "Description" : "How do I uninstall BRAW Studio ?",
+                    "Link" : "https://www.autokroma.com/BRAW_Studio/User_Guide/How_do_I_uninstall_BRAW_Studio"
+                },
+                "2" :{
+                    "Description" : "Why do I still have the 500 frames trial limit ?",
+                    "Link" : "https://www.autokroma.com/BRAW_Studio/User_Guide/Why_do_I_still_have_the_500_frames_trial_limit"
+                } ,
+                "3" :{
+                    "Description" : "How do I upgrade to V2 ?",
+                    "Link" : "BRAW Studio Version 2 Next Upgrade with Source Settings Panel)"
+                } ,
+                "4" :{
+                    "Description" : "etc",
+                    "Link" : "https://www.autokroma.com/BRAW_Studio/User_Guide"
+                }   
+            },
+            "Workflow" : {
+                "0" :{
+                    "Description" : "How do I use .BRAW proxies with Premiere Pro ?",
+                    "Link" : "https://www.autokroma.com/BRAW_Studio/User_Guide/How_do_I_use_BRAW_proxies_with_Premiere_Pro"
+                } ,
+                "1" :{
+                    "Description" : "etc",
+                    "Link" : "https://www.autokroma.com/BRAW_Studio/User_Guide/"
+                }  
+            },
+            "PrProBugsAndTroubles" : {
+                "0" :{
+                    "Description" : "When I try to import a BRAW footage, the progress bar hangs and my file is never imported !",
+                    "Link" : "https://www.autokroma.com/BRAW_Studio/User_Guide/When_I_try_to_import_a_BRAW_footage_the_progress_bar_hangs_and_my_file_is_never_imported"
+                },
+                "1" :{
+                    "Description" : "etc",
+                    "Link" : "https://www.autokroma.com/BRAW_Studio/User_Guide/"
+                }   
+            },
+            "PrProAmeImage" : {
+                "0" :{
+                    "Description" : "Video track or Audio track disappears when bringing the .BRAW into the timeline !",
+                    "Link" : "https://www.autokroma.com/BRAW_Studio/User_Guide/Video_track_or_Audio_track_disappears_when_bringing_the_BRAW_into_the_timeline"
+                },
+                "1" :{
+                    "Description" : "etc",
+                    "Link" : "https://www.autokroma.com/BRAW_Studio/User_Guide/"
+                }   
+            },
+            "PrProBrawStudio" : {
+                "0" :{
+                    "Description" : "How can I open the BRAW Studio Panel ?",
+                    "Link" : "https://www.autokroma.com/BRAW_Studio/User_Guide/How_can_I_open_the_BRAW_Studio_Panel"
+                } ,
+                "1" :{
+                    "Description" : "etc",
+                    "Link" : "https://www.autokroma.com/BRAW_Studio/User_Guide/"
+                }  
+            },
+            "AfterEffectsImage" : {
+                "0" :{
+                    "Description" : "Does it supports 32 bpc (32 bits per channel) ?",
+                    "Link" : "https://www.autokroma.com/BRAW_Studio/User_Guide/Does_it_supports_32_bpc_32_bits_per_channel"
+                } ,
+                "1" :{
+                    "Description" : "etc",
+                    "Link" : "https://www.autokroma.com/BRAW_Studio/User_Guide/"
+                }  
+            },
+            "ShootingBraw" : {
+                "0" :{
+                    "Description" : "How long can I record BRAW with my camera and storage ?",
+                    "Link" : "https://www.autokroma.com/BRAW_Studio/User_Guide/How_long_can_I_record_BRAW_with_my_camera_and_storage"
+                }   
+            }
+            
+        }
+    },
+    "Articles" : {
+        "0" :{
+            "Description" : "How to convert your project to BRAW Studio ?",
+            "AnchorDisc" : "How to convert your project started with the Blackmagic Plugin to BRAW Studio !",
+            "Link" : "https://www.autokroma.com/blog/How-to-convert-your-project-to-BRAW-Studio"
+        },
+        "1" :{
+            "Description" : "How to convert your project to BRAW Studio ?",
+            "AnchorDisc" : "How to convert your project started with the Blackmagic Plugin to BRAW Studio !",
+            "Link" : "https://www.autokroma.com/blog/How-to-convert-your-project-to-BRAW-Studio"
+        },
+        "2" :{
+            "Description" : "How to convert your project to BRAW Studio ?",
+            "AnchorDisc" : "How to convert your project started with the Blackmagic Plugin to BRAW Studio !",
+            "Link" : "https://www.autokroma.com/blog/How-to-convert-your-project-to-BRAW-Studio"
+        },
+        "3" :{
+            "Description" : "etc",
+            "AnchorDisc" : "etc",
+            "Link" : "https://www.autokroma.com/blog/How-to-convert-your-project-to-BRAW-Studio"
+        }
+    }
+}

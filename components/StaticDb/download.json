@@ -1,0 +1,999 @@
+{
+    "Download": {
+      "0" :{
+       "Link": "https://dl.autokroma.com/AfterCodecs_v1.9.9_Windows_Installer.zip",
+      "Description": "Extract and run the Installer .exe - Free trial included !" 
+      },
+      "1" :{
+        "Link": "https://www.autokroma.com/blog/How-to-License-AfterCodecs/",
+       "Description": "How to License AfterCodecs" 
+      }
+      ,
+      "2" :{
+        "Link": "",
+       "Description": "How To UpDate Plugins : download and install the usual way and it will upDate automatically, replacing old plugins with newer Versions." 
+      }
+      ,
+      "3" :{
+        "Link": "next dev",
+       "Description": "How To Uninstall Plugins : download and go into the 0Uninstall Plugins0 folder to find the Uninstaller. Don't forget to tick the Uninstall BRAW AfterCodecs checkbox !" 
+      }
+       ,
+      "4" :{
+        "Link": "https://dl.autokroma.com/AfterCodecs_v1.9.9_Windows_Manual_Install.zip",
+       "Description": "Installer didn't work ? Try Manual Installation :" 
+      }
+    },
+    "Chanelog":{
+      "0":{
+        "Version": "v1.0",
+        "Date": "May '17",
+        "description": "After Effects Windows Launch"
+      },
+      "1":{
+        "Version": "v1.2",
+        "Date": "Sep '17",
+        "description": "Mac OSX Support"
+      },
+      "2":{
+        "Version": "v1.3",
+        "Date": "Apr '18",
+        "description": "Premiere Pro and Media Encoder Support"
+      },
+      "3":{
+        "Version": "v1.5",
+        "Date": "Oct '18",
+        "description": "New advanced HAP algorithms"
+      },
+      "4":{
+        "Version": "v1.6",
+        "Date": "Feb '19",
+        "description": "VR360 metadata and GIF encoder"
+      },
+      "5":{
+        "Version": "v1.8",
+        "Date": "Feb '20",
+        "description": "PPro Panel : MultiRender Workflow"
+      }
+    },
+    "Versions":{
+      "0":{
+            "Version": "1.9.9 (Current Version) ",
+            "Date": "28 October 2020",
+            "Lines":{
+              "0":{
+                "Description": "Installer improvements : it will warn you if the MediaCore folder does not exists, will create it for you in that case. On Windows it will also warn you if you have Adobe applications running while trying to install / upDate plugins and Visual C++ Redistributable x64 is also automatically installed now"
+              },
+              "1":{
+                "Description": "If AfterCodecs is in Trial Mode, it will write a .txt warning you about it in the same folder than your renders"
+              }
+            }
+          },
+      "1":{
+            "Version": "1.9.8",
+            "Date": "19 September 2020",
+            "Lines":{
+              "0":{
+              "Description": "MultiRender : AfterCodecs now avoids exporting markers that are duplicated (for example if you click multiple times on the Add Markers buttons for the same clips, you'll get duplicates)"
+              },
+              "1":{
+                "Description": "After Effects : there is now a new checkbox in the Settings to disable AEfx taskbar icon's progress bar feature from AfterCodecs introduced in Version 1.8.0"
+              },
+              "2":{
+                "Description": "GIF bug fixes"
+              }
+            }
+          },
+      "2":{
+            "Version": "1.9.7",
+            "Date": "31 July 2020",
+            "Lines":{
+              "0":{
+              "Description": "Premiere Pro / Media Encoder :",
+              "Lines" :{
+                "0":{
+                  "Description": "Empty audio track bug fix"
+                },
+                "1":{
+                  "Description": "Maximum custom framerate is now 999 fps, so you can export at 240fps for example"
+                }
+              }
+              }          
+            }
+          },
+      "3":{
+            "Version": "v1.9.6",
+            "Date": "23 June 2020",
+            "Lines":{
+              "0":{
+              "Description": "Windows : if AfterCodecs is not loading you should install Visual C++ 2019 Redistributable x64, see our F.A.Q. https://www.autokroma.com/AfterCodecs/User_Guide/Windows__AfterCodecs_is_not_loading_or_I_get_the_vcruntime_dll_loading_error/"
+              },
+              "1":{
+                "Description": "Bug fixes"
+              }
+            }
+          },
+      "4":{
+            "Version": "1.9.5",
+            "Date": "14 June 2020",
+            "Lines":{
+              "0":{
+              "Description": "Bug fixes"
+              }
+            }
+          },
+      "5":{
+            "Version": "1.9.4",
+            "Date": "12 June 2020",
+            "Lines":{
+              "0":{
+              "Description": "MultiRender :",
+                "Lines":{
+                  "0":{
+                    "Description": "Bug fix with forbidden filename characters (<>:/|?*), now there is a protection removing them both in the Exporter and in the MultiRender Panel"
+                  },
+                  "1":{
+                    "Description": "If you are on Trial Mode, license will only be asked once"
+                  }
+                }
+              },
+              "1":{
+                "Description": "Licensing :",
+                  "Lines":{
+                    "0":{
+                      "Description": "You can license BRAW Studio V2 and Upgrade V1 to V2 in AfterCodecs now"
+                    },
+                    "1":{
+                      "Description": "Bug fix : if you have a floating server configured, the Settings tab won't try to remote license all Autokroma licenses anymore"
+                    }
+                  }
+                }
+            }
+          },
+      "6":{
+            "Version": "1.9.4",
+            "Date": "12 June 2020",
+            "Lines":{
+              "0":{
+              "Description": "MultiRender :",
+                "Lines":{
+                  "0":{
+                    "Description": "Bug fix with forbidden filename characters (<>:/|?*), now there is a protection removing them both in the Exporter and in the MultiRender Panel"
+                  },
+                  "1":{
+                    "Description": "If you are on Trial Mode, license will only be asked once"
+                  }
+                }
+              }
+            }
+        },
+      "7":{
+          "Version": "1.9.3",
+          "Date": "07 May 2020",
+          "Lines":{
+            "0":{
+            "Description": "Installer ZIP doesn't include Manual Installation folder anymore, a Manual ZIP can be found on the website if needed"
+            },
+            "1":{
+              "Description": "Installer OSX Premiere Pro Panel installation has been merged with AfterCodecs, only one checkbox now"
+            }
+          }
+        },
+      "8":{
+        "Version": "1.9.2",
+        "Date": "26 April 2020",
+        "Lines":{
+          "0":{
+          "Description": "MultiRender :",
+            "Lines":{
+              "0":{
+                "Description": "PrPro Panel : you can now add markers from Audio clips if they are not linked to a video clip"
+              },
+              "1":{
+                "Description": "PrPro Panel : new button Add Markers for 'First Video Track' and first button is renamed 'Add Markers for All Video Tracks'"
+              },
+              "2":{
+                "Description": "Exporting stopped randomly sometimes (all markers weren't used), now fixed"
+              },
+              "3":{
+                "Description": "Fixed an Adobe bug where some markers would be used to perform two similar exports"
+              }
+            }
+          },
+          "1":{
+            "Description": "Plugins stability improvement"
+          }
+      }
+      },
+    "9" : {
+      "Version": "1.9.1",
+      "Date": "25 March 2020",
+      "Lines":{
+        "0":{
+          "Description": "Licensing improvement : you can now see all Autokroma licenses in the Settings tab"
+        }
+      }
+    },
+    "10" : {
+      "Version": "1.9.0",
+      "Date": "28 February 2020",
+      "Lines":{
+        "0":{
+          "Description": "After Effects OSX : you can now use multiple output module with AfterCodecs for the same render queue item, like on Windows"
+        },
+        "1":{
+          "Description": "AfterCodecs Installer is now independent from BRAW Studio. You can still download and install BRAW Studio from:",
+          "Link": "https://www.autokroma.com/BRAW_Studio/Download/"
+        }
+      }
+    },
+    "11" : {
+      "Version": "1.8.1",
+      "Date": "13 February 2020",
+      "Lines":{
+        "0":{
+          "Description": "Premiere Pro Panel : new 'Open AfterCodecs Desktop' button to access Settings & License more easily !"
+        },
+        "1":{
+          "Description": "After Effects : Windows crash fix"
+        }
+      }
+    },
+    "12" : {
+      "Version": "1.8.0",
+      "Date": "08 February 2020",
+      "Lines":{
+        "0":{
+          "Description": "Premiere Pro : New AfterCodecs Panel to help you create, in a snap, MultiRender Markers from the selected clips on your timeline ! You can now export all your PPro sequences from one Export Window directly in Premiere Pro and Media Encoder in a few clicks. Compatibility starts from CC 2017 included"  
+        }
+        ,
+        "1":{
+          "Description": "After Effects : Now AfterCodecs displays a progress bar inside After Effects icon in your taskbar on both Windows and Mac OSX. Progress will go back to zero each time an element from the render queue is finished. Behavior is the same as what PPro and AME are currently doing, but adapted for After Effects renders that uses AfterCodecs as the output format"
+        }
+      }
+    },
+    "13" : {
+      "Version": "1.7.8",
+      "Date": "29 January 2020",
+      "Lines":{
+        "0":{
+          "Description": "Rare HAP empty video bug fix, happened with non multiple of 8 resolutions and high CPU cores"
+        },
+        "1":{
+          "Description": "Crash fix"
+        }
+      }
+    },
+    "14" : {
+      "Version": "1.7.7",
+      "Date": "21 November 2019",
+      "Lines":{
+        "0":{
+          "Description": "Empty video exported bug fix"
+        },
+        "1":{
+          "Description": "Notarization for OSX 10.15 Catalina"
+        },
+        "2":{
+          "Description": "New Uninstaller (.exe on Windows / .pkg on Mac OSX) in the 'Uninstall Plugins' folder, Uninstall checkboxes from the installers were removed"
+        }
+      }
+    },
+    "15" : {
+      "Version": "1.7.6",
+      "Date": "12 November 2019",
+      "Lines":{
+        "0":{
+          "Description": "Improved Uninstaller for OSX"
+        }
+      }
+    },
+    "16" : {
+      "Version": "1.7.5",
+      "Date": "04 November 2019",
+      "Lines":{
+        "0":{
+          "Description": "Support for Adobe CC 2020 (Premiere Pro, Media Encoder and After Effects)"
+        },
+        "1":{
+          "Description": "ffkroma updated to 4.2 like ffmpeg 4.2 (will automatically be updated)"
+        },
+        "2":{
+          "Description": "OSX : New 'AfterCodecs Desktop' standalone popup next to the plugins (in MediaCore/Autokroma AfterCodecs/) also available like on Windows, so you can access Global Settings & License more easily ! Shortcut will be created in your Applications"
+        }
+      }
+    },
+    "17" : {
+      "Version": "1.7.4",
+      "Date": "27 September 2019",
+      "Lines":{
+        "0":{
+          "Description": "Windows : new 'AfterCodecs Desktop' standalone popup next to the plugins (in MediaCore/Autokroma AfterCodecs/) so you can access Global Settings & License more easily ! Shortcut will be created on your Desktop & Programs Menu"
+        },
+        "1":{
+          "Description": "Premiere Pro / Media Encoder : 'Quick Sub Resolutions' new buttons at the bottom of Video Settings so you can quickly set Width and Height to Full 1/1, Half 1/2, Quarter 1/4 or Eighth 1/8"
+        },
+        "2":{
+          "Description": "Now AfterCodecs will warn you with a popup when there's a new version available"
+        }
+      }
+    },
+    "18" : {
+      "Version": "1.7.3",
+      "Date": "06 August 2019",
+      "Lines":{
+        "0":{
+          "Description": "Floating server : releasing license when After Effects exits bug fix"
+        }
+      }
+    },
+    "19" : {
+      "Version": "1.7.2",
+      "Date": "29 July 2019",
+      "Lines":{
+        "0":{
+          "Description": "New PPro / AME MultiRender feature for your workflow : lets you batch export parts of your timeline into individual renders, according to its markers prefixed by _. We need your feedback on this!"
+        },
+        "1":{
+          "Description": "Bug fixes : Audio bitrate now only shown for AAC and WAVE audio codec not selectable with .MP4 format"
+        }
+      }
+    },
+    "20" : {
+      "Version": "1.7.1",
+      "Date": "25 July 2019",
+      "Lines":{
+        "0":{
+          "Description": "New Uninstall checkbox in the installers to easily uninstall AfterCodecs plugins"
+        },
+        "1":{
+          "Description": "Custom AAC Bitrate available once you choose 'AAC' as Audio Codec"
+        },
+        "2":{
+          "Description": "VR180 Monoscopic, Stereoscopic Left-Right and Top-Bottom metadata added"
+        },
+        "3":{
+          "Description": "PPro / AME :",
+          "Lines":{
+            "0" :{
+              "Description": "New 5.1 Film (L C R Ls Rs LFE) audio layout "
+            },
+            "1" :{
+              "Description": "Custom Frame Rate field (Experimental) ! and 16, 18 Frame Rate options available"
+            }
+          }          
+        },
+        "4":{
+          "Description": "OSX License input : pressing COMMAND key will now automatically paste the license because COMMAND+V is not working"
+        },
+        "5":{
+          "Description": "Windows : IE won't launch anymore when using the popup offline"
+        }
+      }
+    },
+    "21" : {
+      "Version": "1.7.0",
+      "Date": "27 June 2019",
+      "Lines":{
+        "0":{
+          "Description": "New 'User Guide' tab on top, showing Autokroma.com information to help you using AfterCodecs !"
+        },
+        "1":{
+          "Description": "OSX : fixed multiple screens bug"
+        },
+        "2":{
+          "Description": "OSX : fixed 5 seconds lags when exiting popup"
+        }
+      }
+    },
+    "22" : {
+      "Version": "1.6.4",
+      "Date": "10 June 2019",
+      "Lines":{
+        "0":{
+          "Description": "Licensing bug fixes and new 'Paste Clipboard' button useful on OSX where COMMAND+V for Pasting the license doesn't work"
+        },
+        "1":{
+          "Description": "OSX : when using multiple screens Settings popup would disappear, now it is shown on the primary screen"
+        }
+      }
+    },
+    "23" : {
+      "Version": "1.6.3",
+      "Date": "07 June 2019",
+      "Lines":{
+        "0":{
+          "Description": "Small bug fix"
+        }
+      }
+    },
+    "24" : {
+      "Version": "1.6.2",
+      "Date": "05 June 2019",
+      "Lines":{
+        "0":{
+          "Description": "Various crashes fixes and using ffkroma version 4.1-103"
+        },
+        "1":{
+          "Description": "You can now buy AfterCodecs licenses on https://www.autokroma.com ! This version is the first one compatible"
+        }        ,
+        "2":{
+          "Description": "Plugins are now in the 'Autokroma AfterCodecs' subfolder in MediaCore along with ffkroma automatically copied : you don't need to download it anymore in the Settings tab on OSX. Installers will also delete olders versions of the plugins"
+        }
+      }
+    },
+    "25" : {
+      "Version": "1.6.1",
+      "Date": "25 March 2019",
+      "Lines":{
+        "0":{
+          "Description": "H264 Low resolution color shift when re-imported into Adobe softwares fixed (in the Encoding Options popup a message will now tell you if the rendered file will be re-importable into Adobe softwares or not)"
+        },
+        "1":{
+          "Description": "PPro / AME",
+          "Lines" :{
+            "0" :{
+              "Description" : "Individual audio tracks options Mac OSX bug fix"
+            },
+            "1" :{
+              "Description" : "You can now export audio in 4.0 ambisonic WYZX / WYXZ formats"
+            },
+            "2" :{
+              "Description" : "Filesize estimations for HAP codecs improved"
+            }
+          } 
+        },
+        "2":{
+          "Description": "Misc bug fixes"
+        },
+        "3":{
+          "Description": "Using ffkroma 4.1-100 please update if you're not using the Windows installer"
+        }
+      }
+    },
+    "26" : {
+      "Version": "1.6.0",
+      "Date": "28 February 2019",
+      "Lines":{
+        "0":{
+          "Description": "VR360 tag your renders automatically ! On PPro / AME CC 2019+ 'Auto' will detect 360 / 3D footage automatically but you can also choose manually 'Monoscopic', 'Stereoscopic Left-Right' or 'Stereoscopic Top-Bottom'"
+        },
+        "1":{
+          "Description": "Experimental GIF encoder (extension will automatically change to .gif, cannot contain audio)"
+        },
+        "2":{
+          "Description": "New global options :",
+          "Lines" :{
+            "0" : {
+              "Description" : "Disable AVX512 (Intel accelerated instructions) that seem to be the source of crash on some workstations"
+            },
+            "1" : {
+              "Description" : "Append encoding options to render's filename"
+            }
+          }
+        },
+        "3":{
+          "Description": "Bugs fix :",
+          "Lines" :{
+            "0" : {
+              "Description" : "Hap Q Alpha No Snappy was buggy"
+            },
+            "1" : {
+              "Description" : "OSX : editing Quality, Speed, GOP input values with keyboard is possible again"
+            },
+            "2" : {
+              "Description" : "OSX : H265 / HEVC can be opened in Quicktime Player now"
+            }
+          }
+        },
+        "4":{
+          "Description": "Our new product BRAW Studio can be licensed from AfterCodecs and vice-versa"
+        },
+        "5":{
+          "Description": "Using ffkroma 4.1-99 please update if not using the Windows installer"
+        }
+      }
+    },
+    "27" : {
+      "Version": "1.5.1",
+      "Date": "26 November 2018",
+      "Lines":{
+        "0":{
+          "Description": "Using ffkroma 4.1-84 and not using ffmpeg anymore, you can delete the old ffmpeg executable if you want"
+        },
+        "1":{
+          "Description": "All color shifts with ProRes codecs are fixed now, please update !"
+        }
+        ,
+        "2":{
+          "Description": "H264 / H265 : 8 bpc / 10 bpc, TV Range / Full Range, YUV subsampling choice (4:2:0 / 4:2:2 / 4:4:4)"
+        }
+        ,
+        "3":{
+          "Description": "H264 YouTube profile in .MP4 will render AAC audio now, please use .MOV that will generate WAVE audio so that Youtube has the best quality to re-encode after upload ;) "
+        }
+        ,
+        "4":{
+          "Description": "PPro / AME : new audio layout to render all individual mono tracks separately, reimportable in Premiere Pro ! 'All Channels' layout are now called : 'All : One Multi-Channel Track', 'All : Individuals Mono Tracks' and 'All : Individuals Stereo Tracks' for more clarity"
+        }
+        ,
+        "5":{
+          "Description": "AE : alpha channel interpretation (Straight or Premultiplied) and Matte color are now saved into files and work when reimporting into Adobe softwares"
+        },
+        "6":{
+          "Description": "New 'Open target directory at the end of each render' checkbox in Settings tab (it won't open the folder multiple times if rendering multiple times in the same folder, it will only bring the Explorer / Finder window on the foreground)"
+        },
+        "7":{
+          "Description": "Hap codecs glitch bug fix"
+        },
+        "8":{
+          "Description": "Memory optimization for very long renders"
+        }
+      }
+    },
+    "28" : {
+      "Version": "1.5.0",
+      "Date": "20 October 2018",
+      "Lines":{
+        "0":{
+          "Description": "Updated for CC 2019"
+        },
+        "1":{
+          "Description": "Our ffmpeg fork executable is now called ffkroma, don't forget to update if not using the Windows installer ! AfterCodecs needs at least version 4.0.2-93"
+        },
+        "2":{
+          "Description": "HAP codecs improvement :",
+          "Lines":{
+            "0" : {
+              "Description": "New Hap Q Alpha profile ! Automatically selected when rendering 'Hap Q / Hap Q Alpha' and exporting an alpha channel ('RGB + Alpha' in AE, checkbox in PPro / AME)"
+            },
+            "1" : {
+              "Description": "Best quality : new HAP algorithms are equivalent in quality to original Vidvox / Quicktime algorithms"
+            },
+            "2" : {
+              "Description": "Faster compression : those algorithms were optimised with fast processor instructions, including AVX512 for recent workstations, and multithreading (up to 3 times faster depending on your content and configuration)"
+            },
+            "3" : {
+              "Description": "For Hap and Hap Alpha you have the choice between 3 methods of compression, each with their own tradeoff between speed and quality"
+            },
+            "4" : {
+              "Description": "Multiple By 4 Resolutions in HAP limit removed, you can now render any resolution you want"
+            }
+          }
+        },
+        "3":{
+          "Description": "Warning on OSX : Adobe changed their way of interpreting AfterCodecs ProRes 422, it has now a color shift on reimport in Adobe CC 2019 (only), please use ProRes 4444"
+        },
+        "4":{
+          "Description": "Unable to Undo (CTRL+Z) when using automatic AE RQ Comments bug fix, now this feature has its own sub menu in 'Composition' top menu under 'AfterCodecs Settings'"
+        }
+      }
+    },
+    "29" : {
+      "Version": "1.4.2",
+      "Date": "21 September 2018",
+      "Lines":{
+        "0":{
+          "Description": "AE : new option in Settings will automatically replace all Comments section of render queue items that are AfterCodecs renders by their respective AfterCodecs params (will happen each time you click the 'Composition' top menu)"
+        },
+        "1":{
+          "Description": "ProRes 422 not limited to even width anymore"
+        }
+        ,
+        "2":{
+          "Description": "Float licensing enabled"
+        }
+        ,
+        "3":{
+          "Description": "Bugs fixes"
+        }
+      }
+    },
+    "30" : {
+      "Version": "1.4.1",
+      "Date": "31 August 2018",
+      "Lines":{
+        "0":{
+          "Description": "Audio PPro / AME : added 24 bit , 32 bit (Float) and 'All Channels (Grouped as Stereo)' audio layout which reimports fine in Premiere Pro as multichannel stereo ! (Experimental) "
+        },
+        "1":{
+          "Description": "Audio on AE : added 32 bit (Float) and 8 bit"
+        },
+        "2":{
+          "Description": "[Experimental] Interlaced ProRes / H264 / H265. In PPro / AME you should untick the last checkbox and choose something else than 'None (Progressive)' (only if you have an interlaced source !). In AE it's in the Render Settings -> Field"
+        },
+        "3":{
+          "Description": "Checkbox in settings to disable timecode metadata"
+        },
+        "4":{
+          "Description": "AE : new menu Composition -> AfterCodecs Settings to change Settings without going into the render queue"
+        },
+        "5":{
+          "Description": "AE in Render Mode : not showing the License popup anymore"
+        },
+        "6":{
+          "Description": "AE : ProRes 422 Ultra enabled (was only for PPro / AME before)"
+        },
+        "7":{
+          "Description": "H264 Fast Decode Tuning available"
+        },
+        "8":{
+          "Description": "Timecode issue in PPro / AME fixed"
+        },
+        "9":{
+          "Description": "Various bugs fixes"
+        }
+      }
+    },
+    "31" : {
+      "Version": "1.4.0",
+      "Date": "20 June 2018",
+      "Lines":{
+        "0":{
+          "Description": "Now using ffmpeg 4.0 at least and a new ffmpeg_aftercodecs, please update ffmpeg in the Settings tab"
+        },
+        "1":{
+          "Description": "ProRes 422 faster in After Effects, better ProRes 422 compatibility in Adobe softwares"
+        },
+        "2":{
+          "Description": "Low screen resolution bug fix"
+        },
+        "3":{
+          "Description": "Unable to go over 4096x4096 resolution on PPro / AME bug fix"
+        },
+        "4":{
+          "Description": "Various bug fixes"
+        }
+      }
+    },
+    "32" : {
+      "Version": "1.3.6",
+      "Date": "22 May 2018",
+      "Lines":{
+        "0":{
+          "Description": "Sound on PPro / AME : 'All Channels' option available now"
+        }
+      }
+    },
+    "33" : {
+      "Version": "1.3.5",
+      "Date": "18 May 2018",
+      "Lines":{
+        "0":{
+          "Description": "PPro / AME : able to export 4.0 VR and 5.1 audio"
+        },
+        "1":{
+          "Description": "H264 / H265 : max bitrate is now 900 Mbps and minimal filesize 1 Mio"
+        },
+        "2":{
+          "Description": "Various bug fixes"
+        }
+      }
+    },
+    "34" : {
+      "Version": "1.3.4",
+      "Date": "26 April 2018",
+      "Lines":{
+        "0":{
+          "Description": "After Effects : ProRes interlaced (experimental feature)"
+        },
+        "1":{
+          "Description": "Bug fix for ProRes 422 on PP/ME CC 2018 Windows"
+        }
+      }
+    },
+    "35" : {
+      "Version": "1.3.3",
+      "Date": "17 April 2018",
+      "Lines":{
+        "0":{
+          "Description": "Windows : Multiple output in parallel are now possible on AME and AE"
+        },
+        "1":{
+          "Description": "Manual ffmpeg download button in the Settings tab"
+        },
+        "2":{
+          "Description": "OSX Crash bug fix"
+        },
+        "3":{
+          "Description": "End frames lost bug fix"
+        }
+      }
+    },
+    "36" : {
+      "Version": "1.3.2",
+      "Date": "15 April 2018",
+      "Lines":{
+        "0":{
+          "Description": ""
+        }
+      }
+    },
+    "37" : {
+      "Version": "1.3.1",
+      "Date": "12 April 2018",
+      "Lines":{
+        "0":{
+          "Description": "Media Encoder render from After Effects / Interlaced footage instead of progressive bug fix"
+        },
+        "1":{
+          "Description": "New Audio codec choice : Auto (= previous behavior), AAC or WAVE, useful for AE RenderGarden without audio glitches"
+        }
+      }
+    },
+    "38" : {
+      "Version": "1.3.0",
+      "Date": "09 April 2018",
+      "Lines":{
+        "0":{
+          "Description": "New AfterCodecs plugin for Premiere Pro and Media Encoder !"
+        },
+        "1":{
+          "Description": "ProRes 4444 has been divided into 3 profiles : 4444 Light (unofficial profile lighter than 4444), 4444 and 4444 XQ"
+        },
+        "2":{
+          "Description": "New 'ProRes 422 Ultra' unofficial profile for Premiere Pro / Media Encoder, quality better than HQ"
+        },
+        "3":{
+          "Description": "New H264 YouTube Upload profile, which provides a fast way to render a video for uploading to web platforms !"
+        },
+        "4":{
+          "Description": "AE : Project Link feature is now compatible with CC 2018, and now points to the right composition in the opened project"
+        },
+        "5":{
+          "Description": "Various bug fixes"
+        },
+        "6":{
+          "Description": "New errors dialogs (for example with HAP codec, width must be a multiple of 4)"
+        },
+        "7":{
+          "Description": "AE : If you try to render Alpha with ProRes 422, it won't switch automatically to ProRes 4444 now"
+        }
+      }
+    },
+    "39" : {
+      "Version": "1.2.2",
+      "Date": "11 December 2017",
+      "Lines":{
+        "0":{
+          "Description": "FREE H.264 720p in Trial !"
+        },
+        "1":{
+          "Description": "Snappy compression is enabled by default for HAP (the checkbox is here to disable it now) Beware test your software and hardware before deciding to disable Snappy. Some users report choppy playback without it !"
+        },
+        "2":{
+          "Description": "New Setup executable for both Windows and Mac, AfterCodecs uses Autokroma folder now for configuration and storing the ffmpeg executable (not Dornisoft)"
+        },
+        "3":{
+          "Description": "The codecs lists indicates [A] for codecs accepting alpha channel"
+        },
+        "4":{
+          "Description": "Various bug fixes"
+        }
+      }
+    },
+    "40" : {
+      "Version": "1.2.1",
+      "Date": "25 October 2017",
+      "Lines":{
+        "0":{
+          "Description": "High DPI UI fix on Windows"
+        },
+        "1":{
+          "Description": "AfterCodecs .mov exports the timecode in non drop frame mode if the timecode is not negative ( There's an AE settings to set automatically the Drop Frame / Non Drop Frame mode when importing NTSC footage, timecode will be converted automatically !)"
+        },
+        "2":{
+          "Description": "XMP Project Link : New experimental feature for ProRes (enable it in the Settings tab)"
+        },
+        "3":{
+          "Description": "AfterCodecs downloads ffmpeg latest version 3.4 "
+        },
+        "4":{
+          "Description": "Crash bug fixed on Chinese Windows"
+        },
+        "5":{
+          "Description": "A bug where trial was not enabled is fixed"
+        }
+      }
+    },
+    "41" : {
+      "Version": "1.2.0",
+      "Date": "19 September 2017",
+      "Lines":{
+        "0":{
+          "Description": "AfterCodecs for After Effects is now working for Mac OSX !"
+        },
+        "1":{
+          "Description": "WARNING :",
+          "Lines":{
+            "0" : {
+              "Description" : "Items in previous projects that uses AfterCodecs won't be compatible with the new version, you'll have to reconfigure them !"
+            },
+            "1" : {
+              "Description" : "Windows : ProRes 4444 8 bits Alpha cannot be re imported in AE 16 bpc projects"
+            },
+            "2" : {
+              "Description" : "OSX : ProRes 422 when re imported in AE CC 2014 and older have color shifts ! Everything is fine for CC 2015 and CC 2017"
+            }
+          }
+        },
+        "2":{
+          "Description": "NEW FEATURES : ",
+          "Lines":{
+            "0" : {
+              "Description" : "Two new plugins in the dropdown : 'AfterCodecs .mp4' and 'AfterCodecs .mov'. there's no more .ext and file renaming stuff (Removed the 'Overwriting' options in Settings because not needed anymore)"
+            },
+            "1" : {
+              "Description" : "You can choose ProRes 4444 Alpha depth now : 16 bits or 8 bits (smaller files, faster decompression)"
+            },
+            "2" : {
+              "Description" : "Enabled lossless for x265 (same as x264 : 99 for 422, 100 for 444)"
+            },
+            "3" : {
+              "Description" : "AfterCodecs will warn you if the width or the height are odd instead of displaying the generic error popup"
+            },
+            "4" : {
+              "Description" : "2 New shortcuts : ESC to exit AfterCodecs dialog, Shift+ESC to reposition it in the top left corner (use theses shortcuts if you have trouble with multiple screens for example)"
+            },
+            "5" : {
+              "Description" : "ProRes 422 Bitrate matches more closely official Apple ProRes bitrate than before, and are now re importable back into AE on OSX"
+            }
+          }
+        },
+        "3":{
+          "Description": "BUGS FIXED : Slight color shifts in ProRes has been mostly corrected"
+        },
+        "4":{
+          "Description": "KNOWN BUGS / LIMITATIONS :",
+          "Lines":{
+            "0" : {
+              "Description" : "OSX : When exiting the AfterCodecs options dialog, the UI freeze for a few seconds"
+            },
+            "1" : {
+              "Description" : "ProRes 422 always have a soundtrack even if you don't render sound"
+            },
+            "2" : {
+              "Description" : "x265 videos don't seem to be reimportable on OSX (OK on Windows)"
+            },
+            "3" : {
+              "Description" : "If the content is complex (with small repetitive patterns in background for example etc.), AfterCodecs' ProRes has a hard time matching the official Apple bitrate : files can be 50% bigger but they will also be of higher quality. If that happens, you can try to step down the profile (e.g. choose Normal over HQ)"
+            }
+          }
+        }
+      }
+    },
+    "42" : {
+      "Version": "1.1.4",
+      "Date": "25 March 2020",
+      "Lines":{
+        "0":{
+          "Description": "WARNING : ProRes renders need at least ffmpeg version N-86691-gc885356 because a bug was recently fixed in it ! Just click the download button to update it"
+        },
+        "1":{
+          "Description": "BUGS FIXED : ",
+          "Lines":{
+            "0" : {
+              "Description" : "Fixed AE exit crash bug"
+            },
+            "1" : {
+              "Description" : "Fixed the AE crash bug when clicking twice on the 'Format Options' button"
+            },
+            "2" : {
+              "Description" : "Fixed the bug in CC 2015 when trying to mux at the end of the render"
+            },
+            "3" : {
+              "Description" : "'Error #11 : license too old' bug removed"
+            },
+            "4" : {
+              "Description" : "Bug with 29.97 fps fixed"
+            }
+        }
+      },
+          "2":{
+            "Description": "NEW FEATURES : ",
+            "Lines":{
+              "0" : {
+                "Description" : "For x264 : added two lossless modes (100 for 4:4:4, 99 for 4:2:0), beware : they are not compatible with Quicktime Player and old devices"
+              },
+              "1" : {
+                "Description" : "Overall ProRes quality has been improved, notably 4444"
+              },
+              "2" : {
+                "Description" : "ProRes 422 renders are faster"
+              },
+              "3" : {
+                "Description" : "End audio-video muxing is faster for x264 / x265 !"
+              },
+              "4" : {
+                "Description" : "16 bpc (Trillions of Colors) renders are also faster !"
+              },
+              "5" : {
+                "Description" : "Sound for HAP codecs is now Uncompressed PCM like ProRes"
+              },
+              "6" : {
+                "Description" : "ProRes streaming option enabled (Youtube accepts uploading ProRes !)"
+              },
+              "7" : {
+                "Description" : "Now if you want to use a ffmpeg whose version is not supported, AfterCodecs will accept it anyway for rendering and not look for an other ffmpeg version on the computer"
+              }
+          }
+        }
+      }
+    },
+    "43" : {
+      "Version": "1.1.3",
+      "Date": "31 May 2017",
+      "Lines":{
+        "0":{
+          "Description": "Added a bitrate mode for x264 / x264 RGB / x265"
+        },
+        "1":{
+          "Description": "Always overwrite checkbox in Settings to remove the dialog about renaming file OR overwriting OR canceling the render"
+        },
+        "2":{
+          "Description": "Added x264 video profiles (high, main, baseline) for old devices compatibility"
+        },
+        "3":{
+          "Description": "Automatically ticks FFmpeg checkbox if needed after Download"
+        },
+        "4":{
+          "Description": "New buttons in Settings to open Dornisoft folder and ffmpeg folder"
+        },
+        "5":{
+          "Description": "Removed max dimensions limitations, ProRes can handdle 8K resolutions now !"
+        },
+        "6":{
+          "Description": "Added Hap, Hap alpha and Hap Q codecs ! With settings to enable compression and chunks"
+        }
+      }
+    },
+    "44" : {
+      "Version": "1.1.2",
+      "Date": "15 May 2017",
+      "Lines":{
+        "0":{
+          "Description": "Crash bug fix"
+        },
+        "1":{
+          "Description": "ProRes bugs fixes"
+        },
+        "2":{
+          "Description": "Added a 'AfterCodecs AV Muxing' Dialog at the end of the render"
+        },
+        "3":{
+          "Description": "Added encoder metadata to ProRes with AfterCodecs' and ffmpeg' version (for example 'ProRes HQ (AFC 1.1.2 3.2.2)') This info can be seen in AE and PP"
+        },
+        "4":{
+          "Description": "Added fast decode for x264 / x265 when resolution > HD"
+        },
+        "5":{
+          "Description": "In the preview text under 'Format Options' little description of chosen encoding parameters (for example 'x264 Q75 (Streaming)')"
+        },
+        "6":{
+          "Description": "The encoding window is not always on top anymore"
+        },
+        "7":{
+          "Description": "Prevents overwriting files with the same name before launching render, asking to rename the file OR overwriting OR cancel the render"
+        }
+      }
+    },
+    "45" : {
+      "Version": "1.1.1",
+      "Date": "08 May 2017",
+      "Lines":{
+        "0":{
+          "Description": "Added a trial of 500 frames"
+        }
+      }
+    },
+    "46" : {
+      "Version": "1.1.0",
+      "Date": "08 May 2017",
+      "Lines":{
+        "0":{
+          "Description": "First public version"
+        }
+      }
+    }
+  }
+}

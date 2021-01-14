@@ -1,0 +1,106 @@
+{
+    "Products": {
+        "0":{
+        "Name": "Filling the codec gap 1",
+        "Description": "AfterCodecs brings you with consistency all the codecs & features you need, without Quicktime and in .MP4 and .MOV: ",
+        "Lines": {
+            "0" : "ProRes 422 / 4444 / XQ : yes even on Windows and older versions of Adobe. Included a new ProRes 4444 Light unofficial profile to get both Alpha channel and lower filesize",
+            "1" : "All 4 HAP codecs from Vidvox but with faster algorithms and without resolution restrictions",
+            "2" : "Special Premiere Pro & Media Encoder features : MultiRenders Markers, Export all Audio tracks separately, Quick sub resolutions buttons, Custom Framerate etc."
+        }
+        },
+        "1":{
+            "Name": "Filling the codec gap 2",
+            "Description": "AfterCodecs brings you with consistency all the codecs & features you need, without Quicktime and in .MP4 and .MOV: ",
+            "Lines": {
+                "0" : "ProRes 422 / 4444 / XQ : yes even on Windows and older versions of Adobe. Included a new ProRes 4444 Light unofficial profile to get both Alpha channel and lower filesize",
+                "1" : "All 4 HAP codecs from Vidvox but with faster algorithms and without resolution restrictions"
+           }
+        },
+        "2":{
+            "Name": "Filling the codec gap 3",
+            "Description": "AfterCodecs brings you with consistency all the codecs & features you need, without Quicktime and in .MP4 and .MOV: ",
+            "Lines": {
+                "0" : "ProRes 422 / 4444 / XQ : yes even on Windows and older versions of Adobe. Included a new ProRes 4444 Light unofficial profile to get both Alpha channel and lower filesize",
+                "1" : "All 4 HAP codecs from Vidvox but with faster algorithms and without resolution restrictions",
+                "2" : "Special Premiere Pro & Media Encoder features : MultiRenders Markers, Export all Audio tracks separately, Quick sub resolutions buttons, Custom Framerate etc."
+            }
+        },
+        "3":{
+            "Name": "Filling the codec gap 4",
+            "Description": "AfterCodecs brings you with consistency all the codecs & features you need, without Quicktime and in .MP4 and .MOV:",
+            "Lines": {
+                "0" : "ProRes 422 / 4444 / XQ : yes even on Windows and older versions of Adobe. Included a new ProRes 4444 Light unofficial profile to get both Alpha channel and lower filesize",
+                "1" : "All 4 HAP codecs from Vidvox but with faster algorithms and without resolution restrictions"
+            }
+        }
+    },
+    "Articles": {
+        "0":{
+            "Name": "How to Export Custom Framerate Videos from Premiere Pro and Media Encoder",
+            "Description": "Full tutorial on how to export custom framerates in Premiere Pro and Media Encoder using our plugin, AfterCodecs"
+        },
+        "1":{
+            "Name": "How to Export H264 in .MOV QuickTime from Adobe Premiere Pro, Media Encoder and After Effects",
+            "Description": "Full tutorial on how to export H.264 MOV in Premiere Pro, Media Encoder and After Effects using our plugin, AfterCodecs"
+        },
+        "2":{
+            "Name": "How to Export H264 in .MOV QuickTime from Adobe Premiere Pro, Media Encoder and After Effects",
+            "Description": "Full tutorial on how to export H.264 MOV in Premiere Pro, Media Encoder and After Effects using our plugin, AfterCodecs"
+        },
+        "3":{
+            "Name": "How to Export H264 in .MOV QuickTime from Adobe Premiere Pro, Media Encoder and After Effects",
+            "Description": "Full tutorial on how to export H.264 MOV in Premiere Pro, Media Encoder and After Effects using our plugin, AfterCodecs"
+        },
+        "4":{
+            "Name": "How to Export H264 in .MOV QuickTime from Adobe Premiere Pro, Media Encoder and After Effects",
+            "Description": "Full tutorial on how to export H.264 MOV in Premiere Pro, Media Encoder and After Effects using our plugin, AfterCodecs"
+        },
+        "5":{
+            "Name": "How to Export H264 in .MOV QuickTime from Adobe Premiere Pro, Media Encoder and After Effects",
+            "Description": "Full tutorial on how to export H.264 MOV in Premiere Pro, Media Encoder and After Effects using our plugin, AfterCodecs"
+        },
+        "6":{
+            "Name": "How to Export H264 in .MOV QuickTime from Adobe Premiere Pro, Media Encoder and After Effects",
+            "Description": "Full tutorial on how to export H.264 MOV in Premiere Pro, Media Encoder and After Effects using our plugin, AfterCodecs"
+        },
+        "7":{
+            "Name": "How to Export H264 in .MOV QuickTime from Adobe Premiere Pro, Media Encoder and After Effects",
+            "Description": "Full tutorial on how to export H.264 MOV in Premiere Pro, Media Encoder and After Effects using our plugin, AfterCodecs"
+        },
+        "8":{
+            "Name": "How to Export H264 in .MOV QuickTime from Adobe Premiere Pro, Media Encoder and After Effects",
+            "Description": "Full tutorial on how to export H.264 MOV in Premiere Pro, Media Encoder and After Effects using our plugin, AfterCodecs"
+        },
+        "9":{
+            "Name": "How to Export H264 in .MOV QuickTime from Adobe Premiere Pro, Media Encoder and After Effects",
+            "Description": "Full tutorial on how to export H.264 MOV in Premiere Pro, Media Encoder and After Effects using our plugin, AfterCodecs"
+        }
+  },
+    "TechnicalSpecification": {
+        "Requirments" :{
+        "0" : "One license is for the same user on up to two computers not used at the same time",
+        "1" : "Mac OSX : 10.12 (Sierra) / 10.13 (High Sierra) / 10.14 (Mojave) / 10.15 (Catalina)",
+        "2" : "Microsoft Windows : version 7 / 8.1 / 10",
+        "3" : "Adobe CC 2014 to 2020 included"
+        },
+       "CodecsAndContainers" :{
+        "0" : "[MOV] ProRes: 6 official profiles (422 LT / Proxy / Normal / HQ / 4444 / XQ) and 2 unofficial profiles (422 Ultra / 4444 Light). ProRes 4444 Light / 4444 / XQ supports the Alpha Channel.",
+        "1" : "[MOV] HAP GPU accelerated codecs: 4 codecs (Hap, Hap Alpha, Hap Q and Hap Q Alpha), you can choose disable Snappy compression and change the number of CPU chunks, and for Hap and Hap Alpha you can choose your compression algorithm (each have their own tradeoff between speed and quality)",
+        "2" : "[MOV] [MP4] x264: best H264 / AVC implementation, outperforming both Adobe Media Encoder and QuickTime H264. A special Youtube Upload profile is provided, very easy to use!",
+        "3" : "[MOV] [MP4] x265: files are ~25% lighter than x264 for the same quality, but slower encoding",
+        "4" : "[MOV] [MP4] x264 RGB: same as x264 but avoids YUV colorspace, best for storing separate channels in one video like UV maps, alpha, 3D passes etc. (for power users!)"
+       },
+       "KnowLimitations" :{
+        "0" : "Don’t use the ProRes for broadcast. Always test your hardware and software. It’s not an official version of ProRes; for example ProRes 4444’s Alpha channel doesn’t seem to be accepted by Blackmagic Hyperdeck Studio Mini.",
+        "1" : "For H264 and H265, dimensions of the video must be even (=> odd resolutions will fail), except if you choose YUV 4:4:4 for H264",
+        "2" : "Interlacing: lower field first in H264 recognized as top field first by Adobe"
+        },
+        "ScreenShotPath" :{
+            "0" : "/public/Screenshot_Mac_OSX_Aftercodecs.jpg",
+            "1" : "/public/Screenshot_Premiere.jpg",
+            "2" : "/public/Screenshot_Windows__AfterCodecs_After_Effects-.jpg"
+        }
+
+    }
+}
