@@ -86,9 +86,9 @@ export default function Download() {
     <div className="container">
     <main className="grid">
     <h1 className="title">
-      Autokroma  
-      <Link href="https://dl.autokroma.com/AfterCodecs_v1.9.9_Windows_Installer.zip">
-      <a> AfterCodecs Download</a>
+      WEBSITE PRODUCT
+      <Link href="google.com">
+      <a> Product Download</a>
       </Link>
     </h1>
     <div className="grid">

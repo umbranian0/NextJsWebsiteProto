@@ -12,9 +12,9 @@ export default function Home() {
       
       <main>
         <h1 className="title">
-          Autokroma  
-          <Link href="https://dl.autokroma.com/">
-          <a> AfterCodecs </a>
+          WEBSITE name  
+          <Link href="google.com">
+          <a> Chose a link </a>
           </Link>
         </h1>
         <div className="resp-container" gesture="media"  allow="encrypted-media" AllowFullScreen>

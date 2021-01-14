@@ -40,7 +40,7 @@ import { motion } from 'framer-motion'
           background-attachment: scroll;
           background-position: center;
           background-size: cover;
-          background-image: url("../aftercodecs_box.jpg");
+          background-image: url("../cso.jpg");
         }
         .resp-container {
           position: sticky;

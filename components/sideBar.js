@@ -17,7 +17,7 @@ const SideBar = () => (
         <ul className="main-buttons">
         <li>
             <i className="fa fa-circle fa-x2"></i>
-            <Link href="/"><a  >Autokroma</a></Link>
+            <Link href="/"><a  >WEBSITE NAME</a></Link>
         </li>  
         <li>
             <i className="fa fa-circle fa"></i>
@@ -64,7 +64,7 @@ const SideBar = () => (
          position: fixed;
          width: 280px;
          height: 100%;
-         background-color: purple;
+         background-color: black;
          
        }
 
@@ -90,7 +90,7 @@ const SideBar = () => (
        .sidenav .main-buttons > li > a:hover, .sidenav .main-buttons > li > a:active, .sidenav .main-buttons > li > a:focus {
         background-color: white;
         cursor: pointer;
-       color:purple;
+       color:black;
       }
 
        .sidenav .main-buttons > li {
@@ -107,7 +107,7 @@ const SideBar = () => (
        .sidenav .main-buttons > li:hover, .sidenav .main-buttons > li:active, .sidenav .main-buttons > li:focus {
          background-color: white;
          cursor: pointer;
-        color:purple;
+        color:black;
        }
        .sidenav .main-buttons > li:hover .hidden, .sidenav .main-buttons > li:active .hidden, .sidenav .main-buttons > li:focus .hidden {
          width: 228px;

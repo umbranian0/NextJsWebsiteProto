@@ -95,9 +95,9 @@ export default function Overview() {
       
       <main>
       <h1 className="title">
-        Autokroma  
+        WEBSITENAME PRODUCT  
         <Link href="https://dl.autokroma.com/AfterCodecs_v1.9.9_Windows_Installer.zip">
-        <a> AfterCodecs </a>
+        <a> PRODUCT NAME </a>
         </Link>
       </h1>
       <div className="resp-container" gesture="media"  allow="encrypted-media" AllowFullScreen>
